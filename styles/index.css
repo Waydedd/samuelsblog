@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+}
+
+.top-navbar{
+    background-color: #095709;
+    box-shadow: 5px 0px 10px green;
+}
+
+.top-navbar a{
+    display: inline-block;
+    padding: 10px 5px;
+    font-size: 1.2em;
+    color: #c4ffc4;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+.top-navbar a:hover{
+    background-color: #0c860c;
+    border-bottom-color: red;
+}
+
+.banner{
+    height: 400px;
+    background: linear-gradient(rgba(128, 0, 128, 0.39), rgba(0, 0, 255, 0.39), rgba(255, 0, 0, 0.308)), url(../images/img1.JPG);
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.banner-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.banner-content img{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.banner-content h1{
+    width: 80%;
+    text-align: center;
+    font-size: 5em;
+}
+
+.feature :nth-child(1){
+    background-color: green;
+}
+
+.feature :nth-child(2){
+    background-color: #c22525;
+}
+
+.feature :nth-child(3){
+    background-color: #0bdf98;
+}
+
+.feature div{
+    width: 33.3%;
+    height: 150px;
+    margin-top: 70px;
+}
+
+.feature{
+    display: flex;
+    width: 100%;
+}
