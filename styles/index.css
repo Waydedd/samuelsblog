@@ -2,14 +2,23 @@ body{
     margin: 0px;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 .top-navbar{
-    background-color: #095709;
     box-shadow: 5px 0px 10px green;
+    position: sticky;
+    top: 0;
+}
+
+.top-navbar div{
+    background-color: rgba(4, 59, 4, 0.733);
 }
 
 .top-navbar a{
     display: inline-block;
-    padding: 10px 5px;
+    padding: 20px 10px;
     font-size: 1.2em;
     color: #c4ffc4;
     text-decoration: none;
@@ -47,14 +56,18 @@ body{
     width: 80%;
     text-align: center;
     font-size: 5em;
-}
-
-.feature :nth-child(1){
-    background-color: green;
+    color: aquamarine;
 }
 
 .feature :nth-child(2){
-    background-color: #c22525;
+    background-color: ;
+}
+
+.page-container .feature div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+    text-align: justify;
 }
 
 .feature :nth-child(3){
@@ -62,12 +75,90 @@ body{
 }
 
 .feature div{
-    width: 33.3%;
-    height: 150px;
-    margin-top: 70px;
+    width: 32%;
 }
 
 .feature{
     display: flex;
     width: 100%;
+    justify-content: space-between;
+    margin: 50px 0px 0px 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    margin-top: 50px;
+}
+
+.section1 div{
+    height: 150px;
+}
+
+.section1 div:nth-child(1){
+    width: 66%;
+    background-color: orange;
+}
+
+.section1 div:nth-child(2){
+    width: 32%;
+    background-color: darkblue;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    margin-top: 50px;
+}
+
+.section2 div{
+    height: 150px;
+}
+
+.section2 div:nth-child(1){
+    width: 24%;
+    background-color: dimgray;
+}
+
+.section2 div:nth-child(2){
+    width: 24%;
+    background-color: deeppink;
+}
+
+.section2 div:nth-child(3){
+    width: 24%;
+    background-color: gold;
+}
+
+.section2 div:nth-child(4){
+    width: 24%;
+    background-color: greenyellow;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    margin-top: 20px;
+}
+.foot div{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.education{
+
+}
+
+.education img{
+    width: 100%;
+}
+
+.education p{
+    background-color: transparent;
 }
